@@ -1,0 +1,89 @@
+.team-root {
+	position: relative;
+	width: 200px;
+	height: 160px;
+	background-color: #222;
+	border-radius: 2px;
+	border: 1px solid #444;
+	margin: 6px;
+	transition: all 0.1s;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.team-root:hover {
+	width: 210px;
+	height: 170px;
+	font-size: 17px;
+	margin: 1px;
+	border: 1px solid #aaaaff
+}
+
+.team-logo-container {
+	z-index: 1;
+	position: absolute;
+	background-color: #333;
+	bottom: 15%;
+	left: 25%;
+	width: 50%;
+	height: 63%;
+	border-radius: 100%;
+	border: 1px solid #444;
+	overflow: hidden;
+}
+
+
+.team-logo {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.team-footer {
+	position: absolute;
+	border-top: 5px solid;
+	bottom: 0px;
+	width: 100%;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.team-footer-row {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	border-bottom: 1px solid #444;
+}
+
+.team-footer-row:last-child {
+	border: 0px;
+}
+
+.team-footer-item {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 11px;
+	background-color: #222;
+	flex: 1;
+	height: 25px;
+	padding-bottom: 5px;
+	border-right: 1px solid #444;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.team-footer-item:last-child {
+	border-right: 0px
+}
+
+.team-header {
+	margin: 10px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.team-sc {
+	width: 8px;
+	margin-right: 5px;
+}
